@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+#pesquisar{
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 2px white;
+    margin-left: 10px;
+}
+
+#titulo{
+    margin-top: 10px;
+    width: 350px;
+    height: 50px;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-left: 10px;
+}
+
+#catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#catalogo img {
+    border-radius: 7px;
+    /*border: 5px solid white;*/
+    transition: 1s;
+    width: 430px;
+    height: 430px;
+}
+
+#pesquisar:hover{
+    transform: scale(1.1);
+}
+
+#titulo:hover{
+    transform: scale(1.1);
+}
+
+#catalogo img:hover{
+    transform: scale(0.8);
+    box-shadow: white 0px 0px 20px;
+}
