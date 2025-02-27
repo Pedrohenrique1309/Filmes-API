@@ -1,6 +1,7 @@
 body{
     background-color: black;
     text-align: center;
+    padding-left: 50px
 }
 
 #pesquisar{
@@ -36,8 +37,8 @@ body{
     border-radius: 7px;
     /*border: 5px solid white;*/
     transition: 1s;
-    width: 430px;
-    height: 430px;
+    width: 350px;
+    height: 300px;
 }
 
 #pesquisar:hover{
